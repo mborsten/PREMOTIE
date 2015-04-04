@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1681651AD01E0C0009DDDB /* moties.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1681641AD01E0C0009DDDB /* moties.json */; };
 		2C2944F81ACFF89C00095FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2944F71ACFF89C00095FBB /* main.m */; };
 		2C2944FB1ACFF89C00095FBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2944FA1ACFF89C00095FBB /* AppDelegate.m */; };
 		2C2944FE1ACFF89C00095FBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2944FD1ACFF89C00095FBB /* ViewController.m */; };
@@ -14,6 +15,13 @@
 		2C2945031ACFF89C00095FBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2945021ACFF89C00095FBB /* Images.xcassets */; };
 		2C2945061ACFF89C00095FBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C2945041ACFF89C00095FBB /* LaunchScreen.xib */; };
 		2C2945121ACFF89C00095FBB /* PREMOTIETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2945111ACFF89C00095FBB /* PREMOTIETests.m */; };
+		2C2945211AD007CB00095FBB /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C29451C1AD007CB00095FBB /* DraggableViewBackground.m */; };
+		2C2945221AD007CB00095FBB /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C29451E1AD007CB00095FBB /* DraggableView.m */; };
+		2C2945231AD007CB00095FBB /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2945201AD007CB00095FBB /* OverlayView.m */; };
+		2C2945261AD00A4B00095FBB /* Motie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2945251AD00A4B00095FBB /* Motie.m */; };
+		2C29452C1AD00B2A00095FBB /* Thema.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C29452B1AD00B2A00095FBB /* Thema.m */; };
+		2C29452F1AD00E7700095FBB /* DraggableThemaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C29452E1AD00E7700095FBB /* DraggableThemaView.m */; };
+		2C2945321AD00ED900095FBB /* DraggableMotieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2945311AD00ED900095FBB /* DraggableMotieView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1681641AD01E0C0009DDDB /* moties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moties.json; sourceTree = "<group>"; };
 		2C2944F21ACFF89C00095FBB /* PREMOTIE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PREMOTIE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2944F61ACFF89C00095FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2944F71ACFF89C00095FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,20 @@
 		2C29450B1ACFF89C00095FBB /* PREMOTIETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PREMOTIETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2945101ACFF89C00095FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2945111ACFF89C00095FBB /* PREMOTIETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PREMOTIETests.m; sourceTree = "<group>"; };
+		2C29451B1AD007CB00095FBB /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		2C29451C1AD007CB00095FBB /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		2C29451D1AD007CB00095FBB /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		2C29451E1AD007CB00095FBB /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		2C29451F1AD007CB00095FBB /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		2C2945201AD007CB00095FBB /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		2C2945241AD00A4B00095FBB /* Motie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Motie.h; sourceTree = "<group>"; };
+		2C2945251AD00A4B00095FBB /* Motie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Motie.m; sourceTree = "<group>"; };
+		2C29452A1AD00B2A00095FBB /* Thema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thema.h; sourceTree = "<group>"; };
+		2C29452B1AD00B2A00095FBB /* Thema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thema.m; sourceTree = "<group>"; };
+		2C29452D1AD00E7700095FBB /* DraggableThemaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableThemaView.h; sourceTree = "<group>"; };
+		2C29452E1AD00E7700095FBB /* DraggableThemaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableThemaView.m; sourceTree = "<group>"; };
+		2C2945301AD00ED900095FBB /* DraggableMotieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableMotieView.h; sourceTree = "<group>"; };
+		2C2945311AD00ED900095FBB /* DraggableMotieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableMotieView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +104,20 @@
 		2C2944F41ACFF89C00095FBB /* PREMOTIE */ = {
 			isa = PBXGroup;
 			children = (
+				2C2945241AD00A4B00095FBB /* Motie.h */,
+				2C2945251AD00A4B00095FBB /* Motie.m */,
+				2C29452A1AD00B2A00095FBB /* Thema.h */,
+				2C29452B1AD00B2A00095FBB /* Thema.m */,
+				2C29451D1AD007CB00095FBB /* DraggableView.h */,
+				2C29451E1AD007CB00095FBB /* DraggableView.m */,
+				2C29451B1AD007CB00095FBB /* DraggableViewBackground.h */,
+				2C29451C1AD007CB00095FBB /* DraggableViewBackground.m */,
+				2C2945301AD00ED900095FBB /* DraggableMotieView.h */,
+				2C2945311AD00ED900095FBB /* DraggableMotieView.m */,
+				2C29452D1AD00E7700095FBB /* DraggableThemaView.h */,
+				2C29452E1AD00E7700095FBB /* DraggableThemaView.m */,
+				2C29451F1AD007CB00095FBB /* OverlayView.h */,
+				2C2945201AD007CB00095FBB /* OverlayView.m */,
 				2C2944F91ACFF89C00095FBB /* AppDelegate.h */,
 				2C2944FA1ACFF89C00095FBB /* AppDelegate.m */,
 				2C2944FC1ACFF89C00095FBB /* ViewController.h */,
@@ -96,6 +133,7 @@
 		2C2944F51ACFF89C00095FBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C1681641AD01E0C0009DDDB /* moties.json */,
 				2C2944F61ACFF89C00095FBB /* Info.plist */,
 				2C2944F71ACFF89C00095FBB /* main.m */,
 			);
@@ -168,6 +206,7 @@
 				TargetAttributes = {
 					2C2944F11ACFF89C00095FBB = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L4375458BR;
 					};
 					2C29450A1ACFF89C00095FBB = {
 						CreatedOnToolsVersion = 6.2;
@@ -199,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1681651AD01E0C0009DDDB /* moties.json in Resources */,
 				2C2945011ACFF89C00095FBB /* Main.storyboard in Resources */,
 				2C2945061ACFF89C00095FBB /* LaunchScreen.xib in Resources */,
 				2C2945031ACFF89C00095FBB /* Images.xcassets in Resources */,
@@ -219,9 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2945211AD007CB00095FBB /* DraggableViewBackground.m in Sources */,
+				2C29452C1AD00B2A00095FBB /* Thema.m in Sources */,
+				2C2945231AD007CB00095FBB /* OverlayView.m in Sources */,
+				2C2945321AD00ED900095FBB /* DraggableMotieView.m in Sources */,
 				2C2944FE1ACFF89C00095FBB /* ViewController.m in Sources */,
+				2C29452F1AD00E7700095FBB /* DraggableThemaView.m in Sources */,
 				2C2944FB1ACFF89C00095FBB /* AppDelegate.m in Sources */,
+				2C2945261AD00A4B00095FBB /* Motie.m in Sources */,
 				2C2944F81ACFF89C00095FBB /* main.m in Sources */,
+				2C2945221AD007CB00095FBB /* DraggableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PREMOTIE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,9 +403,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PREMOTIE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -412,6 +465,7 @@
 				2C2945171ACFF89C00095FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2945181ACFF89C00095FBB /* Build configuration list for PBXNativeTarget "PREMOTIETests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +474,7 @@
 				2C29451A1ACFF89C00095FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
